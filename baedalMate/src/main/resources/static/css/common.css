@@ -1,0 +1,51 @@
+html,body{
+    max-width:800px;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+}
+.light{
+    font-weight: 300;
+}
+.normal{
+    font-weight: 400;
+}
+#fh5co-logo{
+    padding-left: 0;
+    margin: 15px 0;
+}
+#fh5co-logo a{
+    text-decoration: none;
+}
+#fh5co-logo i.baedal-logo{
+    position: static;
+    padding:0;
+    background:url(../images/logo_only.png)50% 50%/cover no-repeat;
+    margin-right:5px;
+    border-radius: 0;
+}
+.baedal-logo{
+    width:36px;
+    height:36px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#fh5co-menu-wrap{
+    margin-top: 0;
+}
+
+.btn-block{
+    width:100%;
+}
+
+@media screen and (max-width: 768px){
+    .fh5co-nav-toggle {
+        display: block;
+        top: 0px;
+        margin-top: 15px;
+    }
+    html,body{
+        font-size: 14px;
+    }
+}
